@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adherents",
+  "info": {
+    "singularName": "adherent",
+    "pluralName": "adherents",
+    "displayName": "adhérent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "postnom": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "pays": {
+      "type": "string"
+    },
+    "commune": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    }
+  }
+}
