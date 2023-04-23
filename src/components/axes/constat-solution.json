@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_axes_constat_solutions",
+  "info": {
+    "displayName": "constat-solution"
+  },
+  "options": {},
+  "attributes": {
+    "constat": {
+      "type": "richtext"
+    },
+    "resolution": {
+      "type": "richtext"
+    }
+  }
+}

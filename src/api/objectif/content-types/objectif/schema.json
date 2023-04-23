@@ -15,113 +15,24 @@
     "sous_titre": {
       "type": "string"
     },
-    "Axe1": {
-      "type": "string"
-    },
-    "Axe2": {
-      "type": "string"
-    },
-    "Axe3": {
-      "type": "string"
-    },
-    "Axe4": {
-      "type": "string"
-    },
-    "Axe5": {
-      "type": "string"
-    },
-    "Axe6": {
-      "type": "string"
-    },
-    "Axe9": {
-      "type": "string"
-    },
-    "Axe10": {
-      "type": "string"
-    },
-    "Axe11": {
-      "type": "string"
-    },
-    "Axe8": {
-      "type": "string"
-    },
     "Titre": {
       "type": "string"
     },
-    "Resolution_1_B": {
-      "type": "richtext"
+    "image_fond": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
-    "Resolution_2": {
-      "type": "richtext"
-    },
-    "Resolution_3": {
-      "type": "richtext"
-    },
-    "Resolution_4": {
-      "type": "richtext"
-    },
-    "Resolution_5": {
-      "type": "richtext"
-    },
-    "Resolution_6": {
-      "type": "richtext"
-    },
-    "Resolution_7": {
-      "type": "richtext"
-    },
-    "Resolution_8": {
-      "type": "richtext"
-    },
-    "Resolution_9": {
-      "type": "richtext"
-    },
-    "Resolution_10": {
-      "type": "richtext"
-    },
-    "Resolution_11": {
-      "type": "richtext"
-    },
-    "Constat_1_A": {
-      "type": "richtext"
-    },
-    "Constat_1_B": {
-      "type": "richtext"
-    },
-    "Constat_2": {
-      "type": "richtext"
-    },
-    "Constat_3": {
-      "type": "richtext"
-    },
-    "Constat_4": {
-      "type": "richtext"
-    },
-    "Constat_5": {
-      "type": "richtext"
-    },
-    "Constat_6": {
-      "type": "richtext"
-    },
-    "Constat_7": {
-      "type": "richtext"
-    },
-    "Constat_8": {
-      "type": "richtext"
-    },
-    "Constat_9": {
-      "type": "richtext"
-    },
-    "Constat_10": {
-      "type": "richtext"
-    },
-    "Constat_11": {
-      "type": "richtext"
-    },
-    "Resolution_1_A": {
-      "type": "richtext"
-    },
-    "Axe7": {
-      "type": "string"
+    "axes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "axes.axe"
     }
   }
 }

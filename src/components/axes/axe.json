@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_axes_axes",
+  "info": {
+    "displayName": "Axe"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "integer"
+    },
+    "data": {
+      "displayName": "constat-solution",
+      "type": "component",
+      "repeatable": true,
+      "component": "axes.constat-solution"
+    }
+  }
+}
