@@ -15,7 +15,7 @@
     "sous_titre": {
       "type": "string"
     },
-    "Titre": {
+    "titre": {
       "type": "string"
     },
     "image_fond": {

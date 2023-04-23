@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "soutenirs",
+  "info": {
+    "singularName": "soutenir",
+    "pluralName": "soutenirs",
+    "displayName": "soutenir",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "contacts": {
+      "displayName": "soutenir",
+      "type": "component",
+      "repeatable": false,
+      "component": "soutenir.soutenir"
+    }
+  }
+}
