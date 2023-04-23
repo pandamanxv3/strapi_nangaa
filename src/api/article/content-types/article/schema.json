@@ -27,6 +27,39 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "Axe1": {
+      "type": "string"
+    },
+    "Axe2": {
+      "type": "string"
+    },
+    "Axe3": {
+      "type": "string"
+    },
+    "axe4": {
+      "type": "string"
+    },
+    "axe5": {
+      "type": "string"
+    },
+    "axe6": {
+      "type": "string"
+    },
+    "axe7": {
+      "type": "string"
+    },
+    "axe8": {
+      "type": "string"
+    },
+    "axe9": {
+      "type": "string"
+    },
+    "axe10": {
+      "type": "string"
+    },
+    "axe11": {
+      "type": "string"
     }
   }
 }
