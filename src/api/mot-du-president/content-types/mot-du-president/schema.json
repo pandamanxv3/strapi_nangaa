@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "mot_du_presidents",
+  "info": {
+    "singularName": "mot-du-president",
+    "pluralName": "mot-du-presidents",
+    "displayName": "Mot Du President",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "soustitre": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "signature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mot-du-president.footer"
+    }
+  }
+}

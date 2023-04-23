@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_mot_du_president_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "titre": {
+      "type": "string"
+    }
+  }
+}
